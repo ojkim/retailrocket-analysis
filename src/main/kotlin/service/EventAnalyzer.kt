@@ -19,7 +19,7 @@ class EventAnalyzer(
 ) {
 
     // 내부 집계를 위한 가변(Mutable) 헬퍼 클래스
-    // 함수형 스타일(fold)을 유지하면서 성능을 극대화하기 위한 비법입니다.
+  .
     private class AnalysisAccumulator {
         var totalEvents = 0
         val typeCounts = mutableMapOf<EventType, Int>()
