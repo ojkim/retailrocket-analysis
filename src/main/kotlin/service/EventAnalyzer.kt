@@ -4,7 +4,6 @@ import model.Event
 import model.EventType
 import java.io.File
 
-// [중요] 이 클래스가 있어야 빨간 줄이 사라집니다.
 data class AnalysisResult(
     val totalEvents: Int,
     val typeCounts: Map<EventType, Int>,
